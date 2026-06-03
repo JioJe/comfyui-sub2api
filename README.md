@@ -33,11 +33,7 @@ python -m pip install -r requirements.txt
 - `timeout_sec`: 超时时间
 - `image_1..image_4`: 可选，多图可同时接入；`action=edit` 时至少接入一张图
 
-## 3. 安全建议
-
-如果 key 曾经在截图或仓库中暴露，建议在中转后台重置 key，并只在 ComfyUI 工作流中临时填入，不要提交到仓库。
-
-## 4. 常见报错
+## 3.常见报错
 
 - `HTTP 401`: key 错误或已失效
 - `HTTP 404`: 该端点不支持；插件会自动尝试备选端点
